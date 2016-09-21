@@ -1,0 +1,17 @@
+<com.example.administrator.mynews.common.SuperSwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+         android:id="@+id/news_swipe"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.mynews.view.NawsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/news_recy"
+        android:itemBackground="@drawable/item_perss"
+        ></android.support.v7.widget.RecyclerView>
+
+</com.example.administrator.mynews.common.SuperSwipeRefreshLayout>

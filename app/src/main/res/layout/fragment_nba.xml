@@ -1,0 +1,37 @@
+<com.example.administrator.mynews.common.SuperSwipeRefreshLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nba_swipe"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    >
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nba_recy"
+            android:itemBackground="@drawable/item_perss"
+            >
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </com.example.administrator.mynews.common.SuperSwipeRefreshLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

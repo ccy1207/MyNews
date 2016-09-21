@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.mynews.ui.VedioActivity">
+
+  <android.support.v7.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/video_tab"
+        android:background="#ffc"
+       >
+       <com.example.administrator.mynews.video.TitleTextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/video_title"
+           android:layout_gravity="center"
+           android:textSize="@dimen/font_18"
+           android:singleLine="true"
+           android:gravity="center"
+           android:ellipsize="marquee"
+           android:marqueeRepeatLimit="marquee_forever"
+           />
+
+
+   </android.support.v7.widget.Toolbar>
+
+
+    <com.example.videoplayer.part.SimpleVideoView
+        android:layout_below="@id/video_tab"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/video_simple"
+        android:background="#e98484"
+        ></com.example.videoplayer.part.SimpleVideoView>
+    <com.opendanmaku.DanmakuView
+        android:layout_below="@id/video_tab"
+        android:layout_width="match_parent"
+        android:id="@+id/danmu"
+        app:start_Y_offset="0.2"
+        app:end_Y_offset="0.8"
+        app:max_row="4"
+        app:max_running_per_row="2"
+        app:pick_interval="1000"
+        app:show_debug="false"
+        android:layout_height="230dp" >
+
+
+
+    </com.opendanmaku.DanmakuView>
+
+         <LinearLayout
+       android:gravity="center"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_below="@id/danmu"
+             android:id="@+id/simple_linear"
+             android:orientation="horizontal">
+             <EditText
+                 android:layout_marginBottom="2dp"
+                 android:layout_marginTop="2dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/simple_ev"
+                 android:layout_weight="3"
+                 android:background="@drawable/edit"
+                 />
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:id="@+id/simple_send"
+                 android:text="发送"
+                 android:background="@drawable/simple_send"
+                 android:layout_weight="1"
+                 />
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/simple_dan"
+                 android:layout_weight="1"
+
+                 android:background="@drawable/dan_start"
+                 />
+         </LinearLayout>
+
+    <com.example.administrator.mynews.comment.CommentListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/comment_list"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/simple_linear"
+        ></com.example.administrator.mynews.comment.CommentListView>
+
+
+</RelativeLayout>
