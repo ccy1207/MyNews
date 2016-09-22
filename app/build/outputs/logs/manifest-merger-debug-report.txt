@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:2:1-98:12
+ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:2:1-111:12
 	package
 		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:4:11-53
 		INJECTED from D:\Users\MyNews\app\src\main\AndroidManifest.xml
@@ -234,7 +234,7 @@ ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:31:5-79
 	android:name
 		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:31:22-77
 application
-ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:33:5-96:19
+ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:33:5-109:19
 MERGED from [MyNews:vitamio:unspecified] D:\Users\MyNews\app\build\intermediates\exploded-aar\MyNews\vitamio\unspecified\AndroidManifest.xml:15:5-22:19
 MERGED from [com.android.support:appcompat-v7:24.1.1] D:\Users\MyNews\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\Users\MyNews\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
@@ -458,18 +458,18 @@ activity#cn.sharesdk.share.demo.MainActivity
 ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:86:9-87:20
 	android:name
 		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:86:19-69
-activity#com.example.administrator.mynews.ui.VedioActivity
-ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:88:9-53
-	android:name
-		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:88:19-51
 activity#com.example.administrator.mynews.ui.SimpleVideoActivity
 ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:89:9-90:20
 	android:name
 		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:89:19-57
 activity#com.example.administrator.mynews.ui.BMainActivity
-ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:91:9-94:20
+ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:91:9-92:20
 	android:name
 		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:91:19-51
+activity#com.example.administrator.mynews.ui.WebActivity
+ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:93:9-108:20
+	android:name
+		ADDED from D:\Users\MyNews\app\src\main\AndroidManifest.xml:93:19-49
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [MyNews:vitamio:unspecified] D:\Users\MyNews\app\build\intermediates\exploded-aar\MyNews\vitamio\unspecified\AndroidManifest.xml:11:5-68
 MERGED from [com.google.firebase:firebase-analytics:9.4.0] D:\Users\MyNews\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\AndroidManifest.xml:24:5-67

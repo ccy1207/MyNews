@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.example.administrator.mynews.R;
 import com.example.administrator.mynews.ui.SimpleVideoActivity;
-import com.example.administrator.mynews.ui.VedioActivity;
+
 import com.example.videoplayer.list.MediaPlayerManager;
 import com.squareup.picasso.Picasso;
 

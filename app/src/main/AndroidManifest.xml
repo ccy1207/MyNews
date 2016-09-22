@@ -85,14 +85,27 @@
         <activity android:name="com.mob.tools.MobUIShell"/>
         <activity android:name="cn.sharesdk.share.demo.MainActivity">
         </activity>
-        <activity android:name=".ui.VedioActivity"/>
+
         <activity android:name=".ui.SimpleVideoActivity">
         </activity>
         <activity android:name=".ui.BMainActivity">
-
-
         </activity>
+        <activity android:name=".ui.WebActivity">
+            <intent-filter>
+                <data android:scheme="tencent100371282"/>
 
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

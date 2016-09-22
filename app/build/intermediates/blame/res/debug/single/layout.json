@@ -8,12 +8,12 @@
         "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\layout\\activity_simple_video.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vedio.xml",
-        "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\layout\\fragment_vedio.xml"
-    },
-    {
         "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\partial_pager_resource.xml",
         "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\layout\\partial_pager_resource.xml"
+    },
+    {
+        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vedio.xml",
+        "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\layout\\fragment_vedio.xml"
     },
     {
         "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -278,6 +278,10 @@
     {
         "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\layout\\activity_web.xml"
     },
     {
         "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_simple_video_player.xml",

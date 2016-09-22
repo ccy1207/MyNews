@@ -6,6 +6,8 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.webkit.WebView;
@@ -13,6 +15,7 @@ import android.webkit.WebViewClient;
 import android.widget.TextView;
 
 import com.example.administrator.mynews.R;
+import com.example.administrator.mynews.video.TitleTextView;
 
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
@@ -22,16 +25,19 @@ import cn.sharesdk.sina.weibo.SinaWeibo;
 
 public class ShowActivity extends AppCompatActivity {
 
-    TextView tv;
+    TitleTextView tv;
     WebView web;
     private String mUrl;
     private String mTitle;
     private String mImg;
-
+      Toolbar  tb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
+           tb= (Toolbar) findViewById(R.id.video_tab);
+           setSupportActionBar(tb);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         web= (WebView) findViewById(R.id.show_wed);
         web.setWebViewClient(new WebViewClient(){
@@ -44,12 +50,14 @@ public class ShowActivity extends AppCompatActivity {
         mUrl = getIntent().getStringExtra("url");
         mTitle = getIntent().getStringExtra("title");
         mImg = getIntent().getStringExtra("img");
-            tv= (TextView) findViewById(R.id.show_tob_tv);
+            tv= (TitleTextView) findViewById(R.id.video_title);
         //      Picasso.with(this).load(url).into(tv);
       //  Log.d("ShowActivity", "onCreate: "+url);
            web.loadUrl(mUrl);
 
         ShareSDK.initSDK(this);
+         // tb.setTitle(mTitle);
+
             tv.setText(mTitle);
             web.getSettings().setUseWideViewPort(true);
             web.getSettings().setBuiltInZoomControls(true);
@@ -60,6 +68,8 @@ public class ShowActivity extends AppCompatActivity {
         fb.setAnimation(alpha);
         alpha.setFillAfter(true);
         alpha.start();
+
+
 
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,12 +83,17 @@ public class ShowActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
-    public void beak(View view) {
-        finish();
-
-
+        if (item.getItemId()==android.R.id.home){
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
+
+
 
 
 

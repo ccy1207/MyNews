@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.administrator.mynews.R;
-import com.example.administrator.mynews.ui.VedioActivity;
+
 
 import com.example.administrator.mynews.video.VideoItemView;
 import com.example.administrator.mynews.video.VideoListView;

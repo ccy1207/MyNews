@@ -95,7 +95,7 @@ public class MainFragment extends Fragment {
         mFloat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(v,"hhhh",Snackbar.LENGTH_SHORT).show();
+              //  Snackbar.make(v,"hhhh",Snackbar.LENGTH_SHORT).show();
                 switch (v.getId()) {
                     case R.id.main_float:
                         switch (vp.getCurrentItem()) {

@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.example.administrator.mynews.R;
 import com.example.administrator.mynews.common.TopInfo;
-import com.example.administrator.mynews.ui.ShowActivity;
+import com.example.administrator.mynews.ui.WebActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -53,7 +53,7 @@ public class TopAdapter extends RecyclerView.Adapter<TopAdapter.MyViewHodler> {
         holder.line.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(mcontext, ShowActivity.class);
+                Intent intent=new Intent(mcontext, WebActivity.class);
                 if (mlist.get(position).url!=null){
 
                      intent.putExtra("url",mlist.get(position).url);
