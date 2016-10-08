@@ -1,6 +1,14 @@
 [
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_navi.xml",
-        "source": "D:\\Users\\MyNews\\app\\src\\main\\res\\menu\\main_navi.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_popup_repo_groups.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\src\\main\\res\\menu\\menu_popup_repo_groups.xml"
+    },
+    {
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\menu\\webmenu.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\src\\main\\res\\menu\\webmenu.xml"
+    },
+    {
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_navi.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\src\\main\\res\\menu\\main_navi.xml"
     }
 ]

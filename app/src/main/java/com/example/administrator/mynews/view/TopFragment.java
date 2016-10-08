@@ -233,7 +233,7 @@ public class TopFragment extends Fragment {
 
                                  String title = list.get(i).getTitle();
                                  String imgsrc = list.get(i).getImgsrc();
-                                 String ptime = list.get(i).getPtime();
+                                 String ptime = list.get(i).getPtime().substring(10);
                                  String source = list.get(i).getSource();
                                //  String url =  ads.get(i).getUrl();
                                  mlist.add(new TopInfo(imgsrc,title,ptime,source,u));

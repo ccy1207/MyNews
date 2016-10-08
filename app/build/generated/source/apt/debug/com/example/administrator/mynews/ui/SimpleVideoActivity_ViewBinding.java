@@ -15,9 +15,9 @@ import java.lang.Override;
 public class SimpleVideoActivity_ViewBinding<T extends SimpleVideoActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558539;
+  private View view2131558543;
 
-  private View view2131558540;
+  private View view2131558544;
 
   public SimpleVideoActivity_ViewBinding(final T target, Finder finder, Object source) {
     this.target = target;
@@ -26,7 +26,7 @@ public class SimpleVideoActivity_ViewBinding<T extends SimpleVideoActivity> impl
     target.mSimpleEv = finder.findRequiredViewAsType(source, R.id.simple_ev, "field 'mSimpleEv'", EditText.class);
     view = finder.findRequiredView(source, R.id.simple_send, "field 'mSimpleSend' and method 'onClick'");
     target.mSimpleSend = finder.castView(view, R.id.simple_send, "field 'mSimpleSend'", Button.class);
-    view2131558539 = view;
+    view2131558543 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -35,7 +35,7 @@ public class SimpleVideoActivity_ViewBinding<T extends SimpleVideoActivity> impl
     });
     view = finder.findRequiredView(source, R.id.simple_dan, "field 'mSimpleDan' and method 'onClick'");
     target.mSimpleDan = finder.castView(view, R.id.simple_dan, "field 'mSimpleDan'", Button.class);
-    view2131558540 = view;
+    view2131558544 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -53,10 +53,10 @@ public class SimpleVideoActivity_ViewBinding<T extends SimpleVideoActivity> impl
     target.mSimpleSend = null;
     target.mSimpleDan = null;
 
-    view2131558539.setOnClickListener(null);
-    view2131558539 = null;
-    view2131558540.setOnClickListener(null);
-    view2131558540 = null;
+    view2131558543.setOnClickListener(null);
+    view2131558543 = null;
+    view2131558544.setOnClickListener(null);
+    view2131558544 = null;
 
     this.target = null;
   }

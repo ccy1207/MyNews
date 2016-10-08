@@ -1,20 +1,18 @@
 package com.example.administrator.mynews.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -23,23 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.administrator.mynews.R;
-import com.example.administrator.mynews.adapter.FragmentAdapter;
-import com.example.administrator.mynews.adapter.MainTopAdapter;
-import com.example.administrator.mynews.common.FragTofa;
-import com.example.administrator.mynews.common.RecyclerViewClickListener;
-import com.example.administrator.mynews.view.AdMobBannerSizesFragment;
-import com.example.administrator.mynews.view.CarFragment;
-import com.example.administrator.mynews.view.ImagerFragment;
-import com.example.administrator.mynews.view.JokeFragment;
 import com.example.administrator.mynews.view.MainFragment;
-import com.example.administrator.mynews.view.NBAFragment;
-import com.example.administrator.mynews.view.NawsFragment;
 import com.example.administrator.mynews.view.RigthFragment;
-import com.example.administrator.mynews.view.TopFragment;
-import com.squareup.okhttp.internal.Platform;
 import com.squareup.picasso.Picasso;
-
-import net.youmi.android.AdManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -51,6 +35,7 @@ import cn.sharesdk.tencent.qq.QQ;
 import cn.sharesdk.wechat.friends.Wechat;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,NavigationView.OnNavigationItemSelectedListener,PlatformActionListener {
+
 
     ImageView rigth_im;
     TextView rigth_tv;
@@ -64,8 +49,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> mlist;
 
     DrawerLayout mDrawerLayout;
-    NavigationView  mNavi_rigth;
-    NavigationView  mNavi_legth;
+    NavigationView mNavi_rigth;
+    NavigationView mNavi_legth;
     ActionBarDrawerToggle mToggle;
         ImageButton  ib_weixin;
         ImageButton  ib_qq;
@@ -83,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         getSupportFragmentManager().beginTransaction().replace(R.id.main_rela, new MainFragment()).commit();
         mDrawerLayout= (DrawerLayout) findViewById(R.id.rigth_draw);
-        mToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close);
+        mToggle=new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
 
@@ -176,29 +161,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
-        Toast.makeText(this,"dianji"+item.getTitle(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"点击了"+item.getTitle(),Toast.LENGTH_SHORT).show();
 
         switch (item.getItemId()){
 
             case R.id.navi_home:
 
-                getSupportFragmentManager().beginTransaction().replace(R.id.main_rela, new AdMobBannerSizesFragment()).commit();
-                TopFragment.recy_top.scrollToPosition(0);
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_rela, new MainFragment()).commit();
+             //   TopFragment.recy_top.scrollToPosition(0);
+                break;
+            case R.id.navi_collect:
+                Intent intent=new Intent(this,FavoriteActivity.class);
+
+                startActivity(intent);
                 break;
 
 
 
 
 
-
         }
-
+          mDrawerLayout.closeDrawer(GravityCompat.START);
 
 
 
 
         return true;
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -218,15 +215,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final String userIcon = platDB.getUserIcon();
                  StringBuffer  stringBuffer=new StringBuffer(userIcon);
 
-            final String  str=stringBuffer.subSequence(0,userIcon.length()-2)+"140";
+            final String  str=stringBuffer.subSequence(0,userIcon.length()-2)+"100";
         String userId = platDB.getUserId();
         final String userName = platDB.getUserName();
-//        Log.d("onComplete", "token: "+token);
-//        Log.d("onComplete", "userGender: "+userGender);
-        Log.d("onComplete", "userIcon: "+userIcon);
-       Log.d("onComplete", "userId: "+str);
-        Log.d("onComplete", "userName: "+stringBuffer.subSequence(0,userIcon.length()-3));
-//        Log.d("onComplete", "platformNname: "+platformNname);
+
 
 
 

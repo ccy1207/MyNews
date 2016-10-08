@@ -3,17 +3,24 @@ package com.example.administrator.mynews.ui;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.example.administrator.mynews.R;
+import com.example.administrator.mynews.common.TopInfo;
+import com.example.administrator.mynews.favorite.Theme;
+import com.example.administrator.mynews.favorite.ThemeDao;
 import com.example.administrator.mynews.video.TitleTextView;
 
 import cn.sharesdk.framework.ShareSDK;
@@ -29,7 +36,7 @@ public class WebActivity extends AppCompatActivity {
     private String mUrl;
     private String mTitle;
     private String mImg;
-    Toolbar  tb;
+    Toolbar tb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +44,7 @@ public class WebActivity extends AppCompatActivity {
         tb= (Toolbar) findViewById(R.id.video_tab);
         setSupportActionBar(tb);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         web= (WebView) findViewById(R.id.show_wed);
         web.setWebViewClient(new WebViewClient(){
             @Override
@@ -53,7 +60,7 @@ public class WebActivity extends AppCompatActivity {
         //      Picasso.with(this).load(url).into(tv);
         //  Log.d("ShowActivity", "onCreate: "+url);
         web.loadUrl(mUrl);
-
+                                            
         ShareSDK.initSDK(this);
         // tb.setTitle(mTitle);
 
@@ -73,8 +80,10 @@ public class WebActivity extends AppCompatActivity {
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showShare();
-                //   showShare(getApplicationContext(), null, false);
+
+                favorite();
+
+
             }
         });
 
@@ -82,13 +91,64 @@ public class WebActivity extends AppCompatActivity {
 
     }
 
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.webmenu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+
+    public  void  favorite(){
+
+
+
+        ThemeDao themeDao=new ThemeDao(getApplicationContext());
+        if ( ! themeDao.isContain(mUrl)){
+
+            Theme theme=new Theme();
+            theme.setTitle(mTitle);
+            theme.setCoverUrl(mUrl);
+            theme.setCoverId(mImg);
+
+            themeDao.add(theme);
+        }else {
+            Toast.makeText(this,"已收藏",Toast.LENGTH_SHORT).show();
+        }
+
+
+
+    }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d("fffff", "onOptionsItemSelected: "+item.getItemId());
 
-        if (item.getItemId()==android.R.id.home){
-            finish();
-            return true;
+        if (item.getItemId()==16908332){
+         finish();
         }
+
+        switch (item.getItemId()){
+                            case R.id.menu_favorite:
+                                favorite();
+                                break;
+                       case R.id.home:
+                     finish();
+                             break;
+                            case R.id.menu_share:
+                                showShare();
+                                break;
+
+                            default:
+                                break;
+                        }
+
+
         return super.onOptionsItemSelected(item);
     }
 

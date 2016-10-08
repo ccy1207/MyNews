@@ -13,17 +13,32 @@
         android:id="@+id/video_tab"
         android:background="#ffc"
         >
-        <com.example.administrator.mynews.video.TitleTextView
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/video_title"
-            android:layout_gravity="center"
-            android:textSize="@dimen/font_18"
-            android:singleLine="true"
-            android:gravity="center"
-            android:ellipsize="marquee"
-            android:marqueeRepeatLimit="marquee_forever"
-            />
+            android:orientation="horizontal">
+            <com.example.administrator.mynews.video.TitleTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/video_title"
+                android:layout_gravity="center"
+                android:textSize="@dimen/font_18"
+                android:singleLine="true"
+                android:gravity="center"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                />
+            <ImageButton
+                android:id="@+id/btnFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_filter_list"
+                style="@style/Widget.AppCompat.ActionButton"
+                android:layout_alignParentRight="true"/>
+
+        </LinearLayout>
+
 
 
     </android.support.v7.widget.Toolbar>
@@ -34,7 +49,6 @@
               android:id="@+id/show_wed"
 
              ></WebView>
-
 
 
     <android.support.design.widget.FloatingActionButton

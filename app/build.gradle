@@ -23,7 +23,11 @@ android {
 dependencies {
     compile project(':vitamio')
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+
+
+    compile project(':videoplayer')
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.support:recyclerview-v7:23.4.0'
@@ -34,19 +38,20 @@ dependencies {
     compile 'com.getbase:floatingactionbutton:1.9.0'
     compile 'com.github.lubeast:PullToRefresh:1.0.1'
     compile 'com.ad-authenticator:ad-authenticator-sonar-plugin:1.0.0'
-    compile 'com.google.firebase:firebase-ads:9.4.0'
+    compile 'com.google.firebase:firebase-ads:9.6.1'
     compile 'jp.wasabeef:recyclerview-animators:2.2.3'
     compile 'com.warnyul.android.fast-video-view:fast-video-view:1.0.2'
     compile 'com.jakewharton:butterknife:8.2.1'
-    apt 'com.jakewharton:butterknife-compiler:8.2.1'
     compile 'com.vinaysshenoy:mugen:1.0.2'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-    compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.linsea:opendanmaku:1.0.0@aar'
-
-    compile project(':videoplayer')
+    compile 'com.j256.ormlite:ormlite-core:5.0'
+    compile 'com.j256.ormlite:ormlite-android:5.0'
+    compile 'commons-io:commons-io:2.4'
+    testCompile 'junit:junit:4.12'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
 }
 
 

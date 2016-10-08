@@ -1,46 +1,50 @@
 [
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\play_button.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\play_button.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\pause_button.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\pause_button.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_content_cut.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_content_cut.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_filter_list.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_filter_list.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_rewind.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fast_rewind.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fullscreen.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fullscreen.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\pause_button.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\pause_button.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_list.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_list.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_rewind.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fast_rewind.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_aspect_ratio.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_aspect_ratio.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_aspect_ratio.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_aspect_ratio.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fullscreen.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fullscreen.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_circle_outline_big.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_circle_outline_big.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_arrow.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_play_arrow.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_content_cut.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_content_cut.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_forward.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fast_forward.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\play_button.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\play_button.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_pause.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_pause.xml"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_circle_outline_big.xml",
-        "source": "D:\\Users\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_circle_outline_big.xml"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_arrow.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_play_arrow.xml"
+    },
+    {
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_forward.xml",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-anydpi-v21\\ic_fast_forward.xml"
     }
 ]

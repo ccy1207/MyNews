@@ -242,7 +242,7 @@ public class CarFragment extends Fragment {
 
                 String title = list.get(i).getTitle();
                 String imgsrc = list.get(i).getImgsrc();
-                String ptime = list.get(i).getPtime();
+                String ptime = list.get(i).getPtime().substring(10);
                 String source = list.get(i).getSource();
                 String url = list.get(i).getUrl();
                 String u = list.get(i).getUrl_3w();

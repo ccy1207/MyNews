@@ -17,11 +17,11 @@ import java.lang.Override;
 public class VideoItemView_ViewBinding<T extends VideoItemView> implements Unbinder {
   protected T target;
 
-  private View view2131558597;
+  private View view2131558601;
 
-  private View view2131558599;
+  private View view2131558603;
 
-  private View view2131558596;
+  private View view2131558600;
 
   public VideoItemView_ViewBinding(final T target, Finder finder, Object source) {
     this.target = target;
@@ -29,7 +29,7 @@ public class VideoItemView_ViewBinding<T extends VideoItemView> implements Unbin
     View view;
     view = finder.findRequiredView(source, R.id.textureView, "field 'textureView' and method 'stopPlayer'");
     target.textureView = finder.castView(view, R.id.textureView, "field 'textureView'", TextureView.class);
-    view2131558597 = view;
+    view2131558601 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,7 +38,7 @@ public class VideoItemView_ViewBinding<T extends VideoItemView> implements Unbin
     });
     view = finder.findRequiredView(source, R.id.ivPreview, "field 'ivPreview' and method 'startPlay'");
     target.ivPreview = finder.castView(view, R.id.ivPreview, "field 'ivPreview'", ImageView.class);
-    view2131558599 = view;
+    view2131558603 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -48,7 +48,7 @@ public class VideoItemView_ViewBinding<T extends VideoItemView> implements Unbin
     target.tvNewsTitle = finder.findRequiredViewAsType(source, R.id.tvNewsTitle, "field 'tvNewsTitle'", TextView.class);
     view = finder.findRequiredView(source, R.id.tvCreatedAt, "field 'tvCreatedAt' and method 'simple'");
     target.tvCreatedAt = finder.castView(view, R.id.tvCreatedAt, "field 'tvCreatedAt'", TextView.class);
-    view2131558596 = view;
+    view2131558600 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,12 +71,12 @@ public class VideoItemView_ViewBinding<T extends VideoItemView> implements Unbin
     target.progressBar = null;
     target.ivPlay = null;
 
-    view2131558597.setOnClickListener(null);
-    view2131558597 = null;
-    view2131558599.setOnClickListener(null);
-    view2131558599 = null;
-    view2131558596.setOnClickListener(null);
-    view2131558596 = null;
+    view2131558601.setOnClickListener(null);
+    view2131558601 = null;
+    view2131558603.setOnClickListener(null);
+    view2131558603 = null;
+    view2131558600.setOnClickListener(null);
+    view2131558600 = null;
 
     this.target = null;
   }

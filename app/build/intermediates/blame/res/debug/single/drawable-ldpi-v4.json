@@ -1,54 +1,46 @@
 [
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fullscreen.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fullscreen.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_rewind.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fast_rewind.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_play_arrow.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_play_arrow.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_content_cut.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_content_cut.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_forward.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fast_forward.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_pause.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_pause.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\play_button.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\play_button.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_forward.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fast_forward.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_play_circle_outline_big.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_circle_outline_big.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_play_arrow.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_play_arrow.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_aspect_ratio.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_aspect_ratio.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\vitamio\\unspecified\\res\\drawable-ldpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_content_cut.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_content_cut.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fullscreen.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fullscreen.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\vitamio\\unspecified\\res\\drawable-ldpi-v4\\ic_launcher.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_aspect_ratio.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_aspect_ratio.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pause_button.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\pause_button.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\play_button.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\play_button.png"
     },
     {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_pause.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_pause.png"
-    },
-    {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_list.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_list.png"
-    },
-    {
-        "merged": "D:\\Users\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_rewind.png",
-        "source": "D:\\Users\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\ic_fast_rewind.png"
+        "merged": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pause_button.png",
+        "source": "F:\\9.22\\My\\MyNews\\app\\build\\intermediates\\exploded-aar\\MyNews\\videoplayer\\unspecified\\res\\drawable-ldpi-v4\\pause_button.png"
     }
 ]
